@@ -28,7 +28,7 @@ public class Main {
             // 버퍼에 남은 공백이 있어 입력하지 않아서 바로 넘어가짐
             // 버퍼는 데이터를 한 곳에서 다른 한 곳으로 전송하는 동안 일시적으로 그 데이터를 보관하는 메모리의 영역 = Queue ( 큐 )
             System.out.println("사칙연산중 하나를 입력해주세요 :");
-            scan.nextLine(); // 남아있는 버퍼에 남은 공백이 없게 처리함.
+            scan.nextLine(); // 버퍼에 남은 공백이 없게 처리함.
             String c = scan.nextLine();
 
             if (c.equals("+")) {

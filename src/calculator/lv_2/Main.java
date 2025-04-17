@@ -39,7 +39,7 @@ public class Main {
             if (str.equals("Y") || str.equals("y")) {
                 check = true;
             } else if (str.equals("N") || str.equals("n")) {
-                System.out.println("계산기를 종류합니다.");
+                System.out.println("계산기를 종료합니다.");
                 break;
             } else if (str.equals("D") || str.equals("d")) {
                 calculator.remove();

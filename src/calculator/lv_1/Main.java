@@ -25,6 +25,7 @@ public class Main {
                 System.out.println("양의 정수를 입력하세요");
                 break;
             }
+
             // 버퍼에 남은 공백이 있어 입력하지 않아서 바로 넘어가짐
             // 버퍼는 데이터를 한 곳에서 다른 한 곳으로 전송하는 동안 일시적으로 그 데이터를 보관하는 메모리의 영역 = Queue ( 큐 )
             System.out.println("사칙연산중 하나를 입력해주세요 :");

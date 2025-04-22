@@ -25,7 +25,7 @@ public class ScanResult<T> {
     }
 
     // Getter
-    public double getResult(){
+    public double getResult() {
         return result;
     }
     // Setter
@@ -34,17 +34,17 @@ public class ScanResult<T> {
 //    }
 
     // 확인용
-    public void printNum(){
+    public void printNum() {
         System.out.println(result);
     }
 
     // 예외처리
     public void scanNum() {
-        try{
+        try {
             System.out.println("실수를 입력하세요 :");
             ScanResult<Double> num1 = new ScanResult<>(scan.nextDouble());
             this.result = num1.getNum();
-        }catch (InputMismatchException e){
+        } catch (InputMismatchException e) {
             System.out.println("실수를 입력하세요");
             scan.next();
         }

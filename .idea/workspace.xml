@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29465299-803d-42b0-a581-bc4cead754bb" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/calculator/lv_3/ReslutList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calculator/lv_3/ArithmeticCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/lv_3/ArithmeticCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/calculator/lv_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/lv_3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/lv_3/OperationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/lv_3/OperationType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calculator/lv_3/ReslutList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/lv_3/ReslutList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/calculator/lv_3/ScanResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/lv_3/ScanResult.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,6 +178,7 @@
       <workItem from="1744976886352" duration="1180000" />
       <workItem from="1745194037919" duration="24260000" />
       <workItem from="1745279876673" duration="1899000" />
+      <workItem from="1745281790492" duration="1937000" />
     </task>
     <servers />
   </component>

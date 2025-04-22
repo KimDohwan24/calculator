@@ -14,9 +14,11 @@ public class ArithmeticCalculator {
     }
 
     // 기능
+    // Getter
     public String getSymbol() {
         return symbol;
     }
+
     public double calculation(Double num1, Double num2, OperationType op) {
         switch (op) {
             case PLUS -> result = num1 + num2;
@@ -28,7 +30,13 @@ public class ArithmeticCalculator {
         }
         return result;
     }
-    public void getResult(){
+
+    // 결과값 출력
+    public void printResult(){
         System.out.println("결과값 : " + result);
+    }
+
+    public double getResult(){
+        return result;
     }
 }

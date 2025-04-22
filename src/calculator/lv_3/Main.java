@@ -7,35 +7,24 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         ArithmeticCalculator arithmeticCalculator = new ArithmeticCalculator();
+        ScanResult scanResult = new ScanResult();
+        boolean check = true;
 
-        while (true) {
-
-            double value1 = 0;
-            double value2 = 0;
-            try {
-                System.out.println("첫번째 실수를 입력하세요 :");
-                ScanResult<Double> num1 = new ScanResult<>(scan.nextDouble());
-                value1 = num1.getNum();
-            } catch (InputMismatchException e) {
-                System.out.println("실수를 입력하세요");
-                scan.nextLine();
-            }
+        while (check) {
+            // 실수 받고 예외처리
+            scanResult.scanNum();
+            double result1 = scanResult.getResult();
+            scanResult.printNum();
 
             System.out.print("연산자 입력 (+, -, *, /): ");
-            scan.nextLine();
-            String symbol = scan.nextLine();
+            String symbol = scan.next();
             OperationType op = OperationType.fromSymbol(symbol);
 
-            try {
-                System.out.println("두번째 실수를 입력하세요 :");
-                ScanResult<Double> num2 = new ScanResult<>(scan.nextDouble());
-                value2 = num2.getNum();
-            } catch (InputMismatchException e) {
-                System.out.println("실수를 입력하세요");
-                scan.nextLine();
-            }
+            scanResult.scanNum();
+            double result2 = scanResult.getResult();
+            scanResult.printNum();
 
-            arithmeticCalculator.calculation(value1, value2, op);
+            arithmeticCalculator.calculation(result1, result2, op);
             arithmeticCalculator.getResult();
 
             System.out.println("더 계산하시겠습니까? (exit 입력 시 종료)");

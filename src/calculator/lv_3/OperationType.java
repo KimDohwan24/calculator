@@ -16,6 +16,7 @@ public enum OperationType {
     }
 
     // 기능
+    // Getter
     public String getSymbol() {
         return symbol;
     }

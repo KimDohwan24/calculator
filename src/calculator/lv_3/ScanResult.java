@@ -28,10 +28,6 @@ public class ScanResult<T> {
     public double getResult() {
         return result;
     }
-    // Setter
-//    public void setNum(double result){
-//        this.result = result;
-//    }
 
     // 확인용
     public void printNum() {

@@ -26,6 +26,7 @@ public class ArithmeticCalculator {
             case MUL -> result = num1 * num2;
             case DIV -> {
                 if (num1 == 0 || num2 == 0) throw new IllegalArgumentException("0으로 나눌 수 없습니다.");
+                else result = num1 / num2;
             }
         }
         return result;
